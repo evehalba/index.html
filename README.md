@@ -13,7 +13,7 @@
     <div class="Section_top">
         <div class="content">
             <h1>ALBA <span>Developer</span></h1>
-            <a href="#">Welcome</a>
+            <a href="file:///C:/Users/Eveh%20Alba/Desktop/1/index.html">Welcome</a>
         </div>
     </div> 
 </body>
