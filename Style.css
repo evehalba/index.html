@@ -1,0 +1,76 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: static;
+    background-image: url(image.jpg);
+    background-position: center;
+    background-blend-mode: normal;
+    background-size: contain;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite;
+    animation-fill-mode: forwards;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -100%);
+    text-transform: uppercase;
+
+}
+.content h1{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.content h1 span{
+    color: #111;
+}
+.content a{
+    background: #85c1ee;
+    padding: 15px 26px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.content a:hover{
+    background: #034e88;
+    color: #fff;
+}
+@keyframes change{
+    60%
+    {
+        background-image: url(image.jpg);
+    }
+    60%
+    {
+        background-image: url(img1.jpg);
+    }
+    60%
+    {
+        background-image: url(img2.jpg);
+    }
+    60%
+    {
+        background-image: url(img4.jpg);
+    }
+    60%
+    {
+        background-image: url(image6.webp);
+    }
+    60%
+    {
+        background-image: url(image7.jpg);
+    }
+    60%
+    {
+}
